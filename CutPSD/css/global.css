@@ -1,0 +1,27 @@
+.fl-right {
+  float: right;
+}
+
+.fl-left {
+  float: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+
+.wp-inner {
+  width: 1170px;
+  margin: 0 auto;
+}
