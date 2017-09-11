@@ -1,0 +1,19 @@
+.text-center {
+  text-align: center;
+}
+
+.fl-left {
+  float: left;
+}
+
+.fl-right {
+  float: right;
+}
+
+#wp-inner {
+  width: 960px;
+  margin: 0 auto;
+}
+.padd-left {
+  padding-left: 13px;
+}

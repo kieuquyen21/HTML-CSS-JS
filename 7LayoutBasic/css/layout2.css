@@ -1,0 +1,42 @@
+body {
+  background: #f3f4f6;
+  font-family: font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 40px;
+  font-size: 13px;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#header {
+  background: #404040;
+  padding: 15px 0px 18px 13px;
+  color: #fff;
+}
+#wp-content {
+  background: #fff;
+}
+
+#sidebar {
+  width: 270px;
+  background: #fbfbfb;
+  min-height: 600px;
+  padding-left: 13px;
+  margin-top: 1px;
+}
+
+#content {
+  padding-left: 13px;
+  width: 690px;
+  min-height: 600px;
+}
+
+#footer {
+  background: #808080;
+  margin-top: 2px;
+  padding:15px 0px 25px 13px;
+  color: #fff;
+}

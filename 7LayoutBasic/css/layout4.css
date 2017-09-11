@@ -1,0 +1,28 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 500px;
+  line-height: 40px;
+}
+
+#header {
+  background: #404040;
+  color: #fff;
+  padding: 3px 0px;
+}
+
+#wp-content {
+  background: #f3f4f6;
+  padding-bottom: 2px;
+}
+
+.content {
+   min-height: 600px;
+   background: #fff;
+}
+
+#footer {
+  background: #808080;
+  color: #fff;
+  padding: 15px 0px 25px;
+}
