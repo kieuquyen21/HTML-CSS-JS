@@ -1,0 +1,68 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+#header {
+  background: #2bbc9b;
+}
+
+#logo {
+  padding: 10px 0px;
+}
+#main-menu li {
+  position: relative;
+  float: left;
+}
+
+#main-menu li a {
+  padding: 33px 25px;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+}
+
+#main-menu>li.active>a, #main-menu li:hover>a {
+  background: #24a085;
+  transition: all 0.25;/*change color within 0.25s*/
+}
+
+/* multi level*/
+#main-menu .sub-menu li {
+  background: #2bbc9b;
+  float: none; /*de display no co tac dung */
+  display: block; /*co do rong bang do rong cua thang chua no*/
+  border-top: 1px solid #fff;
+}
+
+#main-menu .sub-menu {
+  display: none;
+  width: 240px;
+  position: absolute;
+  left: 100%;
+  top: 0px;
+}
+#main-menu>li>.sub-menu {
+  top: 86px;
+  left: 0px;
+}
+
+#main-menu .sub-menu li a {
+  position: relative;
+  padding: 18px 0px 17px 25px;
+  font-size: 18px;
+}
+
+#main-menu>li>ul.sub-menu>li>a::after {
+  content: "\f0da";
+  font-family:  FontAwesome;
+  font-size: 16px;
+  position: absolute;
+  color: #fff;
+  right: 15px;
+}
+
+
+#main-menu li:hover>ul.sub-menu { /*quan he cha con*/
+  display: block;
+}

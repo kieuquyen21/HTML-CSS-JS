@@ -1,0 +1,12 @@
+.wp-inner {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.fl-left {
+  float: left;
+}
+
+.fl-right {
+  float: right;
+}

@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+#header {
+  background: #2bbc9b;
+}
+
+#logo {
+  padding: 10px 0px;
+}
+#main-menu li {
+  float: left;
+}
+
+#main-menu li a {
+  padding: 33px 25px;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+}
+
+#main-menu li.active a, #main-menu li:hover a {
+  background: #24a085;
+  transition: all 0.25;/*change color within 0.25s*/
+}
